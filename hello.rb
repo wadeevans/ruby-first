@@ -1,7 +1,7 @@
-def hello(name)
-	puts("Welcome to learning how to code #{name}")
+def hello(name, age)
+	puts("Welcome #{name}, #{age} is definitely not too old to learn how to code")
 end
 
-hello("Rob")
-hello("Jane")
-hello("Pete")
+hello("Rob", 30)
+hello("Jane", 56)
+hello("Pete", 72)
